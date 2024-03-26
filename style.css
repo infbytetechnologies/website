@@ -1,0 +1,265 @@
+html, body {
+    height:100%;
+    margin:0;
+    background:#101728;
+    font-family:sans-serif;
+    scroll-behavior:smooth;
+}
+
+#section1 {
+    color:white;
+    height:50vw;
+    background:#0f1819;
+}
+
+#logo1 {
+    width:15vw;
+    margin-left:3vw;
+    margin-top:2vw;
+}
+
+#section1DivP {
+    margin-left:4vw;
+    width:50vw;
+    font-family:sans-serif;
+    font-weight:bold;
+    font-size:5vw;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+#section1Div {
+    display:flex;
+    margin-top:3vw;
+}
+
+#section1DivDivImg {
+    position:absolute;
+    left:52vw;
+    width:30vw;
+}
+
+#section1DivDiv {
+    align-content:center;
+    overlap:overlap;
+    background:green;
+}
+
+#section1DivDivImg1 {
+    position:absolute;
+    margin-left:4vw;
+    top:9.5vw;
+    width:30vw;
+    height:27vw;
+    border-radius:3vw;
+    z-index:10;
+}
+
+#section1 a {
+    text-decoration:none;
+}
+
+#section1Div1 {
+    display:flex;
+    font-family:sans-serif;
+    font-weight:bold;
+    font-size:1.2vw;
+    color:#0f1819;
+    margin-left:4vw;
+    margin-top:4vw;
+    padding:1vw;
+    padding-right:1.5vw;
+    padding-left:1.5vw;
+    border-radius:45px;
+    background:green;
+    background-image:linear-gradient(45deg,#ffc107, #2e9f33);
+    width:10vw;
+    height:2vw;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+ }
+
+#section2 {
+    display:flex;
+    flex-wrap:wrap;
+    color:white;
+    height:50vw;
+    width:100%;
+    margin-top:-5vw;
+    background:#101728;
+}
+
+#section2Div {
+    margin-left:5vw;
+    margin-top:3vw;
+    margin-left:auto;
+    margin-right:auto;
+    font-family:sans-serif;
+}
+
+#section2DivH2 {
+    top:48vw;
+    font-size:4vw;
+    font-weight:bold;
+    width:40vw;
+    color:#2e9f33;
+}
+
+#section2DivP1, #section2DivP2 {
+    font-size:2vw;
+    font-weight:bold;
+    width:50vw;
+    margin-left:auto;
+    margin-right:auto;
+}
+#section2DivP1 {
+    top:65vw;
+}
+#section2DivP2 {
+    top:73vw;
+}
+
+#section2Img {
+    margin-top:auto;
+    margin-bottom:auto;
+    margin-left:auto;
+    margin-right:auto;
+    width:22vw;
+    height:25vw;
+    border-radius:3vw;
+    z-index:10;
+    background:red;
+}
+
+#section3 {
+    display:flex;
+    flex-wrap:wrap;
+    height:50vw;
+    width:100%;
+    color:white;
+}
+
+#section3Img {
+    margin-top:auto;
+    margin-bottom:auto;
+    margin-left:auto;
+    margin-right:auto;
+    width:22vw;
+    height:25vw;
+    border-radius:3vw;
+}
+
+#section3Div {
+    margin-left:5vw;
+    margin-top:3vw;
+    margin-left:auto;
+    margin-right:auto;
+    font-family:sans-serif;
+}
+
+#section3DivH2 {
+    top:48vw;
+    font-size:4vw;
+    font-weight:bold;
+    width:40vw;
+    color:#2e9f33;
+}
+
+#section3DivP1, #section3DivP2 {
+    font-size:2vw;
+    font-weight:bold;
+    width:50vw;
+    margin-left:auto;
+    margin-right:auto;
+}
+#section3DivP1 {
+    top:65vw;
+}
+#section3DivP2 {
+    top:73vw;
+}
+
+#section4 {
+    display:flex;
+    flex-wrap:wrap;
+    color:white;
+    height:50vw;
+    width:100%;
+    margin-top:-5vw;
+    background:#101728;
+}
+
+#section4Div {
+    margin-left:5vw;
+    margin-top:3vw;
+    margin-left:auto;
+    margin-right:auto;
+    font-family:sans-serif;
+}
+
+#section4DivH2 {
+    top:48vw;
+    font-size:4vw;
+    font-weight:bold;
+    width:40vw;
+    color:#2e9f33;
+}
+
+#section4DivP1, #section4DivP2 {
+    font-size:2vw;
+    font-weight:bold;
+    width:50vw;
+    margin-left:auto;
+    margin-right:auto;
+}
+#section4DivP1 {
+    top:65vw;
+}
+#section4DivP2 {
+    top:73vw;
+}
+
+#section4Img {
+    margin-top:auto;
+    margin-bottom:auto;
+    margin-left:auto;
+    margin-right:auto;
+    width:27vw;
+    height:25vw;
+    border-radius:3vw;
+    z-index:10;
+}
+
+#section5 {
+    color:white;
+    display:flex;
+    flex-wrap:wrap;
+    width:fit-content;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#section5DivH2 {
+    color:#2e9f33;
+    font-size:2.5vw;
+}
+
+#section5Div p {
+    font-size:1vw;
+}
+#logo2 {
+    width:10vw;
+    margin-right:20vw;
+}
+
+#div1 {
+    width:fit-content;
+    margin-left:auto;
+    margin-right:auto;
+}
+#div1 img {
+    width:30px;
+    height:30px;
+    margin:10px;
+}
