@@ -35,7 +35,8 @@ html, body {
 
 #section1DivDivImg {
     position:absolute;
-    left:52vw;
+    left:51vw;
+    top: 14vw;
     width:30vw;
 }
 
