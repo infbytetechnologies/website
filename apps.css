@@ -16,6 +16,11 @@ html, body {
     margin-right:10px;
 }
 
+#section1Div img {
+    width:5vw;
+    height:5vw;
+}
+
 #comingSoon {
     font-size:1.5vw;
     font-style: italic;
