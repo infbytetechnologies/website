@@ -18,12 +18,45 @@ html, body {
     margin-top:2vw;
 }
 
-#section1DivP {
+#section1DivP1 {
     margin-left:4vw;
     width:50vw;
     font-family:sans-serif;
     font-weight:bold;
-    font-size:5vw;
+    font-style: italic;
+    font-size:2vw;
+    margin-top:auto;
+    margin-bottom:2vw;
+    background: linear-gradient(to right, #17781B, #FFC107,#29972E, #29972E);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+}
+
+#section1DivP2 {
+    margin-left:4vw;
+    width:7vw;
+    text-align:center;
+    font-family:sans-serif;
+    font-weight:bold;
+    font-style: italic;
+    font-size:1vw;
+    margin-top:3vw;
+    margin-bottom:2vw;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:5px;
+    padding:1vw;
+    background:beige;
+    color:grey;
+}
+
+#section1DivP {
+    color:beige;
+    margin-left:4vw;
+    width:50vw;
+    font-family:sans-serif;
+    font-weight:bold;
+    font-size:8vw;
     margin-top:auto;
     margin-bottom:auto;
 }
@@ -67,7 +100,7 @@ html, body {
     font-size:1.2vw;
     color:#0f1819;
     margin-left:4vw;
-    margin-top:4vw;
+    margin-top:2vw;
     padding:1vw;
     padding-right:1.5vw;
     padding-left:1.5vw;
@@ -75,6 +108,7 @@ html, body {
     background:green;
     background-image:linear-gradient(45deg,#ffc107, #2e9f33);
     width:10vw;
+
     height:2vw;
     flex-direction:row;
     align-items:center;
@@ -97,6 +131,19 @@ html, body {
     margin-left:auto;
     margin-right:auto;
     font-family:sans-serif;
+}
+
+#section2DivDiv {
+    display:flex;
+    flex-wrap:wrap;
+    margin-top:4vw;
+}
+
+#section2DivDiv img {
+    height:3vw;
+    margin-right:4vw;
+    margin-top:auto;
+    margin-bottom;auto;
 }
 
 #section2DivH2 {
@@ -159,6 +206,19 @@ html, body {
     font-family:sans-serif;
 }
 
+#section3DivDiv {
+    display:flex;
+    flex-wrap:wrap;
+    margin-top:4vw;
+}
+
+#section3DivDiv img {
+    height:3vw;
+    margin-right:4vw;
+    margin-top:auto;
+    margin-bottom;auto;
+}
+
 #section3DivH2 {
     top:48vw;
     font-size:4vw;
@@ -182,21 +242,41 @@ html, body {
 }
 
 #section4 {
-    display:flex;
-    flex-wrap:wrap;
+    display:inline;
     color:white;
     height:50vw;
     width:100%;
     margin-top:-5vw;
-    background:#101728;
 }
 
 #section4Div {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+#section4DivDiv {
     margin-left:5vw;
     margin-top:3vw;
     margin-left:auto;
     margin-right:auto;
     font-family:sans-serif;
+}
+
+#section4Div1 {
+    display:flex;
+    flex-wrap:wrap;
+    margin:4vw;
+}
+
+#section4Div1 img {
+    height:3vw;
+    margin-right:4vw;
+    margin-top:auto;
+    margin-bottom;auto;
+}
+
+#kotlin {
+    width:10vw;
 }
 
 #section4DivH2 {
@@ -239,6 +319,16 @@ html, body {
     width:fit-content;
     margin-left:auto;
     margin-right:auto;
+}
+
+#section5Div div {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+#section5Div div img {
+    width:1.5vw;
+    margin:0.5vw;
 }
 
 #section5DivH2 {
