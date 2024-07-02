@@ -321,12 +321,14 @@ html, body {
     margin-right:auto;
 }
 
-#section5Div div {
+#section5Div a {
+    color:white;
     display:flex;
     flex-wrap:wrap;
+    text-decoration:none;
 }
 
-#section5Div div img {
+#section5Div a img {
     width:1.5vw;
     margin:0.5vw;
 }
