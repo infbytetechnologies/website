@@ -38,3 +38,8 @@ h1 {
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
 }
+
+span {
+    color:white;
+    background:red;
+}
