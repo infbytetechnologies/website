@@ -1,0 +1,63 @@
+html, body {
+    color:whitesmoke;
+    height:100%;
+    margin:0;
+    background:#101728;
+    font-family:sans-serif;
+    scroll-behavior:smooth;
+}
+
+#icon {
+    display:flex;
+    color:whitesmoke;
+}
+
+#icon p {
+    width:fit-content;
+    font-weight:bold;
+    font-size:1.5vw;
+    margin:auto;
+    margin-left:0vw;
+}
+#icon img {
+    padding:10px;
+    border-radius:1.5vw;
+    margin:2vw;
+    width:5vw;
+    height:5vw;
+    background: #B9F0B7;
+}
+
+#download {
+    width:15vw;
+    padding:10px;
+    margin:1vw;
+    margin-top:2vw;
+    text-align:center;
+    border-radius:0.7vw;
+    background:#0794e6;
+    font-size:1vw;
+}
+
+a {
+    color:whitesmoke;
+    text-decoration:none;
+}
+
+#screenshots {
+    display:flex;
+    flex-wrap:nowrap;
+    /*white-space:nowrap;
+    overflow-x:scroll;
+    overflow-y:hidden;
+    -webkit-overflow-scrolling: touch;*/
+    overflow-x:auto;
+    width:80%;
+    justify-content:center;
+    margin:auto;
+}
+
+#screenshots img {
+    display:inline-block;
+    padding:8px;
+}
