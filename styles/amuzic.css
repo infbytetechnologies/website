@@ -61,3 +61,10 @@ a {
     display:inline-block;
     padding:8px;
 }
+
+#privacy {
+    padding:10px;
+    margin: 2vw;
+    font-size:1vw;
+    color:#0794e6;
+}
