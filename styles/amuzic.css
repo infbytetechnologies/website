@@ -15,28 +15,27 @@ html, body {
 #icon p {
     width:fit-content;
     font-weight:bold;
-    font-size:1.5vw;
+    font-size:25px;
     margin:auto;
     margin-left:0vw;
 }
 #icon img {
     padding:10px;
-    border-radius:1.5vw;
-    margin:2vw;
-    width:5vw;
-    height:5vw;
+    border-radius:10px;
+    margin:20px;
+    width:48px;
+    height:48px;
     background: #B9F0B7;
 }
 
 #download {
-    width:15vw;
+    width:100px;
     padding:10px;
-    margin:1vw;
-    margin-top:2vw;
+    margin:20px;
     text-align:center;
-    border-radius:0.7vw;
+    border-radius:5px;
     background:#0794e6;
-    font-size:1vw;
+    font-size:10px;
 }
 
 a {
@@ -45,26 +44,25 @@ a {
 }
 
 #screenshots {
-    display:flex;
-    flex-wrap:nowrap;
-    /*white-space:nowrap;
-    overflow-x:scroll;
-    overflow-y:hidden;
-    -webkit-overflow-scrolling: touch;*/
-    overflow-x:auto;
-    width:80%;
-    justify-content:center;
+    white-space:nowrap;
+    overflow:auto;
+    -webkit-overflow-scrolling: touch;
+    width:70%;
     margin:auto;
+    margin-bottom:20px;
+    text-align:center;
 }
 
 #screenshots img {
-    display:inline-block;
-    padding:8px;
+    margin:0;
+    height:100%;
 }
 
 #privacy {
     padding:10px;
-    margin: 2vw;
-    font-size:1vw;
+    margin:auto;
+    margin-top:8vw;
+    width:fit-content;
+    font-size:16px;
     color:#0794e6;
 }
