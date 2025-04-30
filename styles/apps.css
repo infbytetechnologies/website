@@ -62,6 +62,7 @@ h1 {
 }
 
 #appsContainer a {
+    display: inline-block;
     color:whitesmoke;
     margin:30px;
     text-decoration:none;
@@ -88,7 +89,14 @@ h1 {
     height:200px;
     margin: 0 auto;
     margin-bottom:0;
+}
+
+#appsContainer #amuzic {
     background:#B9F0B7;
+}
+
+#appsContainer #amuzeo {
+    background:#E3EE9E;
 }
 
 #libsContainer {

@@ -25,17 +25,23 @@ html, body {
     margin:20px;
     width:48px;
     height:48px;
-    background: #B9F0B7;
+}
+
+#icon #amuzic {
+    background:#B9F0B7;
+}
+
+#icon #amuzeo {
+    background:#E3EE9E;
 }
 
 #downloadLinks {
     display: flex;
-    margin: 20px;
 }
 
-#downloadLinks li {
+#downloadLinks a {
     display: inline-block;
-    margin-right: 20px;
+    margin: 20px;
 }
 
 #download {
