@@ -66,7 +66,8 @@ h1 {
     align-items:center;
     text-align:center;
     color:white;
-    margin:auto;
+    margin-right:20px;
+    margin-left:20px;
 }
 
 #appsContainer a {
@@ -83,6 +84,7 @@ h1 {
     margin:auto;
     margin-top: 20px;
 }
+
 #appsContainer p {
     width:70%;
     font-size:16px;
